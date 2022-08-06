@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 1,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "||gql.tokopedia.com/graphql/TopadsProductQuery",
+      "resourceTypes" : ["xmlhttprequest"]
+    }
+  },
+  {
+    "id" : 2,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "||tokopedia.com/graphql/TopadsHeadlineQuery",
+      "resourceTypes" : ["xmlhttprequest"]
+    }
+  }
+]
