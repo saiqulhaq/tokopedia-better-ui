@@ -1,0 +1,27 @@
+{
+  "name": "tokopedia-better-ui",
+  "version": "1.0.0",
+  "description": "opiniated how Tokopedia UI should be",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiqulhaq/tokopedia-better-ui.git"
+  },
+  "author": "Saiqul Haq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saiqulhaq/tokopedia-better-ui/issues"
+  },
+  "homepage": "https://github.com/saiqulhaq/tokopedia-better-ui#readme",
+  "devDependencies": {
+    "rollup": "^2.77.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0"
+  }
+}
